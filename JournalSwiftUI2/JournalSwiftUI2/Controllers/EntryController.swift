@@ -27,6 +27,12 @@ class EntryController {
         entries.append(newEntry)
     }
     
+    func update(entry: Entry, title: String, body: String) {
+        entry.title = title
+        entry.body = body
+        saveToPersistentStore()
+    }
+    
     func delete(entry: Entry) {
         if let moc = entry.managedObjectContext {
             moc.delete(entry)
