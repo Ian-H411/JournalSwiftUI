@@ -8,7 +8,7 @@
 
 import Foundation
 import CoreData
-extension Entry {
+extension Entry: Identifiable {
     
     convenience init(title: String, body: String, date: Date = Date(), moc: NSManagedObjectContext = CoreDataStack.context) {
         self.init(context: moc)

@@ -10,7 +10,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        let entries = EntryController.shared.entries
+        return List(entries) {entry in
+            entryRow(entry: entry)
+            
+        }
+    }
+}
+struct entryRow: View {
+    var entry: Entry
+    var body: some View {
+        Text(entry.title ?? "")
     }
 }
 
