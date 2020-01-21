@@ -7,10 +7,14 @@
 //
 
 import Foundation
+import CoreData
 
 extension Entry {
     
-    convenience public override init(entity: NSEntityDescription, insertInto context: NSManagedObjectContext?) {
-        <#code#>
+    convenience init(title: String, body: String, date: Date = Date(), moc: NSManagedObjectContext = CoreDataStack.context) {
+        self.init(context: moc)
+        self.title = title
+        self.body = body
+        self.date = date
     }
 }
