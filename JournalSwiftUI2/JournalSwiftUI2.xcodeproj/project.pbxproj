@@ -17,6 +17,7 @@
 		254459E423D6900500386788 /* EntryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254459E323D6900500386788 /* EntryModel.swift */; };
 		254459E623D6901400386788 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254459E523D6901400386788 /* CoreDataStack.swift */; };
 		254459E823D690BE00386788 /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254459E723D690BE00386788 /* EntryController.swift */; };
+		254459EA23D697AF00386788 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254459E923D697AF00386788 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		254459E323D6900500386788 /* EntryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryModel.swift; sourceTree = "<group>"; };
 		254459E523D6901400386788 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		254459E723D690BE00386788 /* EntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
+		254459E923D697AF00386788 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			children = (
 				254459D523D68F9B00386788 /* LaunchScreen.storyboard */,
 				254459CE23D68F9A00386788 /* ContentView.swift */,
+				254459E923D697AF00386788 /* DetailView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				254459C823D68F9A00386788 /* AppDelegate.swift in Sources */,
+				254459EA23D697AF00386788 /* DetailView.swift in Sources */,
 				254459CD23D68F9A00386788 /* JournalSwiftUI2.xcdatamodeld in Sources */,
 				254459E823D690BE00386788 /* EntryController.swift in Sources */,
 				254459CF23D68F9A00386788 /* ContentView.swift in Sources */,
